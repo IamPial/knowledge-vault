@@ -240,3 +240,27 @@ nav li a {
 .subscription-btn {
   margin-top: 24px;
 }
+.subscription-msg {
+  margin-top: 16px;
+  position: relative;
+}
+.subscription-msg span {
+  color: #627382;
+  line-height: 20px;
+}
+.subscription-msg span:nth-child(1) {
+  margin-right: 8px;
+}
+.subscription-msg span:nth-child(3) {
+  margin-left: 8px;
+}
+.divider {
+  background-color: #627382;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 50.5%;
+  top: 45%;
+}
