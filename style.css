@@ -9,6 +9,9 @@
 .color-green {
   color: #30b868;
 }
+.margin-right-6 {
+  margin-right: 6px;
+}
 .margin-left-10 {
   margin-left: 10px;
 }
@@ -183,4 +186,34 @@ nav li a {
   color: #001931;
   font-weight: 600;
   margin-top: 16px;
+}
+
+/* work section */
+#work {
+  padding: 120px;
+}
+.work-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.work-heading .work-subtitle {
+  text-transform: uppercase;
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.work-content .work-list-text {
+  margin-top: 40px;
+}
+.work-content .work-list-text li {
+  margin-top: 16px;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
+  line-height: 20px;
 }
