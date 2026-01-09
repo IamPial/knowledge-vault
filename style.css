@@ -6,6 +6,18 @@
 }
 /* shared style */
 
+h3 {
+  font-size: 24px;
+  color: #001931;
+  font-weight: 600;
+  margin-top: 16px;
+}
+/* p {
+  font-size: 16px;
+  color: #627382;
+  margin-top: 16px;
+  line-height: 20px;
+} */
 .color-green {
   color: #30b868;
 }
@@ -182,12 +194,12 @@ nav li a {
   height: 32px;
   width: 32px;
 }
-.feature-card .card-title {
+/* .feature-card .card-title {
   font-size: 24px;
   color: #001931;
   font-weight: 600;
   margin-top: 16px;
-}
+} */
 
 /* work section */
 #work {
