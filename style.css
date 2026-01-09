@@ -4,7 +4,13 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-/* shared style */
+/* NOTE: shared style */
+h2 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: 700;
+  text-transform: capitalize;
+}
 
 h3 {
   font-size: 24px;
@@ -12,12 +18,12 @@ h3 {
   font-weight: 600;
   margin-top: 16px;
 }
-/* p {
+p {
   font-size: 16px;
   color: #627382;
   margin-top: 16px;
   line-height: 20px;
-} */
+}
 .color-green {
   color: #30b868;
 }
@@ -38,30 +44,7 @@ h3 {
 .text-align {
   text-align: center;
 }
-.section-title {
-  font-size: 48px;
-  color: #001931;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-.section-text {
-  font-size: 16px;
-  color: #627382;
-  margin-top: 16px;
-  line-height: 20px;
-}
 
-.nav-btn {
-  padding: 12px 16px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
-  background-color: #469165;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 .btn {
   padding: 16px;
   color: #ffffff;
@@ -73,12 +56,11 @@ h3 {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.btn:hover,
-.nav-btn:hover {
+.btn:hover {
   background-color: #2eb365;
 }
-/* main style */
+
+/* NOTE: main style */
 
 /* nav section */
 nav {
@@ -101,6 +83,20 @@ nav li a {
 }
 .logo img {
   cursor: pointer;
+}
+.nav-btn {
+  padding: 12px 16px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #469165;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background-color: #2eb365;
 }
 
 /* hero section */
@@ -145,7 +141,6 @@ nav li a {
   color: #ffffff;
   line-height: 24px;
   margin-top: 16px;
-  font-weight: 400;
 }
 .hero-btn {
   margin-top: 32px;
@@ -176,7 +171,6 @@ nav li a {
 .feature-card {
   max-width: 322px;
   padding: 70px 24px;
-  /* border: 1px solid red; */
   text-align: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
@@ -189,17 +183,10 @@ nav li a {
   padding: 14px;
   margin: 0 auto;
 }
-
 .feature-card .card-img img {
   height: 32px;
   width: 32px;
 }
-/* .feature-card .card-title {
-  font-size: 24px;
-  color: #001931;
-  font-weight: 600;
-  margin-top: 16px;
-} */
 
 /* work section */
 #work {
@@ -245,11 +232,7 @@ nav li a {
 }
 .subscription-content h2 {
   font-size: 40px;
-  color: #001931;
-  font-weight: 700;
-  text-transform: capitalize;
 }
-
 .subscription-content p {
   line-height: 24px;
 }
