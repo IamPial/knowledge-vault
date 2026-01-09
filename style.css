@@ -80,6 +80,7 @@ nav li a {
   color: #000000;
   font-weight: 500;
   text-decoration: none;
+  cursor: pointer;
 }
 .logo img {
   cursor: pointer;
